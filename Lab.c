@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
-#include <windows.h>
+#include <locale.h>
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
+    setlocale(LC_ALL, " Ukrainian ");
+    setlocale(LC_ALL, " Ukrainian ");
 
     // Вхідні дані
     double x = 0.0;
