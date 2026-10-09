@@ -3,8 +3,7 @@
 #include <locale.h>
 
 int main() {
-    setlocale(LC_ALL, " Ukrainian ");
-    setlocale(LC_ALL, " Ukrainian ");
+    setlocale(LC_ALL, "Ukrainian");
 
     // Вхідні дані
     double x = 0.0;
